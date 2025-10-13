@@ -1,0 +1,25 @@
+{
+  "name": "classifai-bias-check-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build src/index.js src/settings.js --output-path=build",
+    "start": "wp-scripts start src/index.js src/settings.js --output-path=build",
+    "env": "npx @wp-playground/cli server --wp=6.8 --blueprint=blueprint.json --auto-mount --xdebug --debug --verbosity"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.0.0",
+    "@wordpress/components": "^25.0.0",
+    "@wordpress/data": "^9.0.0",
+    "@wordpress/edit-post": "^7.0.0",
+    "@wordpress/element": "^5.0.0",
+    "@wordpress/i18n": "^4.0.0",
+    "@wordpress/plugins": "^6.0.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
