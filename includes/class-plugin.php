@@ -117,7 +117,6 @@ Respond ONLY with valid JSON, no additional text.';
                         'required'          => true,
                         'type'              => 'integer',
                         'sanitize_callback' => 'absint',
-                        'validate_callback' => 'is_numeric',
                     ],
                 ],
             ]
